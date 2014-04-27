@@ -1,0 +1,23 @@
+$ automake
+configure.ac: error: no proper invocation of AM_INIT_AUTOMAKE was found.
+configure.ac: You should verify that configure.ac invokes AM_INIT_AUTOMAKE,
+configure.ac: that aclocal.m4 is present in the top-level directory,
+configure.ac: and that aclocal.m4 was recently regenerated (using aclocal)
+Makefile.am: error: required file './INSTALL' not found
+Makefile.am:   'automake --add-missing' can install 'INSTALL'
+Makefile.am: error: required file './NEWS' not found
+Makefile.am: error: required file './README' not found
+Makefile.am: error: required file './AUTHORS' not found
+Makefile.am: error: required file './ChangeLog' not found
+Makefile.am: error: required file './COPYING' not found
+Makefile.am:   'automake --add-missing' can install 'COPYING'
+src/Makefile.am: error: required file './depcomp' not found
+src/Makefile.am:   'automake --add-missing' can install 'depcomp'
+/usr/local/Cellar/automake/1.14.1/share/automake-1.14/am/depend2.am: error: am__fastdepCXX does not appear in AM_CONDITIONAL
+/usr/local/Cellar/automake/1.14.1/share/automake-1.14/am/depend2.am:   The usual way to define 'am__fastdepCXX' is to add 'AC_PROG_CXX'
+/usr/local/Cellar/automake/1.14.1/share/automake-1.14/am/depend2.am:   to 'configure.ac' and run 'aclocal' and 'autoconf' again
+/usr/local/Cellar/automake/1.14.1/share/automake-1.14/am/depend2.am: error: AMDEP does not appear in AM_CONDITIONAL
+/usr/local/Cellar/automake/1.14.1/share/automake-1.14/am/depend2.am:   The usual way to define 'AMDEP' is to add one of the compiler tests
+/usr/local/Cellar/automake/1.14.1/share/automake-1.14/am/depend2.am:     AC_PROG_CC, AC_PROG_CXX, AC_PROG_OBJC, AC_PROG_OBJCXX,
+/usr/local/Cellar/automake/1.14.1/share/automake-1.14/am/depend2.am:     AM_PROG_AS, AM_PROG_GCJ, AM_PROG_UPC
+/usr/local/Cellar/automake/1.14.1/share/automake-1.14/am/depend2.am:   to 'configure.ac' and run 'aclocal' and 'autoconf' again
