@@ -1,1 +1,3 @@
-# dummy
+main.o: main.cc hello.h
+
+hello.h:

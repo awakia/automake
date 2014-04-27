@@ -1,6 +1,9 @@
 /* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
+/* Name of package */
+#define PACKAGE "full-package-name"
+
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT "BUG-REPORT-ADDRESS"
 
@@ -18,3 +21,6 @@
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "VERSION"
+
+/* Version number of package */
+#define VERSION "VERSION"
